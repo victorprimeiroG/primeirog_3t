@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr"></html>
-  <head>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
-   <title Primeiro G></title>
-   <script>
-      //alert("AlÔ primeiro G. Sou um alert.");
-      function meChame(nome){
-          document.write(nome + "Estou escrevendo na sua página.");
-          alert("Viu!! Escrevi." + nome);
-          console.log("saida no console.");
-      }
-    </script>
-   </head>
-   <body>
-      <button onclick="meChame('Garozin')">clique aqui</button>
-   </body>
-   </html>   
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro G</title>
+  <script src="estudo.js"></script>
+</head>
+<body>
+
+
+Capital:  <input id="valor" type="text">     <br>
+   Juros Mensais:  <input id="juros" type="text">     <br>
+Nr. de Meses:  <input id="meses" type="text">     <br>
+   <button onclick="total()">Calcula</button>
+
+   <br><br><br>
+   <span id="resultado"></span><br><br>
+   valor 1: <input id="v1" type="text"><br>
+   valor 2: <input id="v2" type="text"><br>
+    <button onclick="adicao()">Soma</button>
+    <button onclick="subtracao()">Subtração</button>
+    <button onclick="divisao()">Divisão</button>
+    <button onclick="multiplicacao()">Multiplicação</button>
+    <button onclick="porcentagem()">Porcentagem</button>
+</body>
+</html>
