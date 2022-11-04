@@ -11,27 +11,19 @@
 </head>
 
 <body>
+   <input type="checkbox" id="input-calcFin">
    <div class="calc">
       <div id="sptotal">
          <span id="total">R$ 0,00</span>
       </div>
-      Capital: <input id="valor" type="text"> <br>
-      Juros Mensais: <input id="juros" type="text"> <br>
-      Quantidade de meses <input id="meses" type="text"> <br>
+      Capital: <input id="capital" placeholder="R$ ??" type="text"> <br>
+      Juros Mensais: <input id="juros" placeholder="% ??" type="text"> <br>
+      Quantidade de meses <input id="meses" placeholder="Tempo ??" type="text"> <br>
       <button onclick="total()">Calcular</button>
       <div id="splista">
          <span id="listames"></span>
       </div>
    </div>
-   <br><br><br>
-   <span id="resultado"></span><br><br>
-   valor 1: <input id="v1" type="text"><br>
-   valor 2: <input id="v2" type="text"><br>
-   <button onclick="adicao()">Soma</button>
-   <button onclick="subtracao()">Subtração</button>
-   <button onclick="divisao()">Divisão</button>
-   <button onclick="multiplicacao()">Multiplicação</button>
-   <button onclick="porcentagem()">Porcentagem</button>
 </body>
 
 </html>

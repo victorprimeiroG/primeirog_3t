@@ -5,12 +5,17 @@
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 5px 6px red;
 }
 .cal input {
     background: black;
     color: aliceblue;
     border-radius: 5px;
     padding: 5px;
+}
+.calc input:focus {
+    background: black;
+    color: sandybrown;
 }
 #sptotal {
     background: black;
@@ -30,4 +35,14 @@
     background: antiquewhite;
     color: red;
     cursor: pointer;
+}
+#splista {
+    text-align: start;
+    border-style: dotted;
+    border-color: blue;
+    border-width: 1px;
+    border-radius: 4px;
+    background: brown;
+    color: darkblue;
+    margin-top: 10px;
 }

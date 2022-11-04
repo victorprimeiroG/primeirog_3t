@@ -1,4 +1,6 @@
-
+function moeda(atual){
+  return atual.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+}
 function total() {
   let c = document.getElementById("capital").value;
   let j = document.getElementById("juros").value;
@@ -19,17 +21,20 @@ function total() {
   }
   if (Number(t)) {
     alert("a quantidade de meses deve ser um número.")
-    document.getElementById("meses").value =
+    document.getElementById("meses").value = "";
       document.getElementById("meses").focus();
     return
 
   }
   let m = 0;
+  let texto = "";
   for (let i = 1; i <= t; i++) {
     m = c * (1 + (j / 100));
+    texto += 1 + ": " + moeda(m) + "<br>";
     //document.write("Valor do mês " + i + " valor: " + m + "<br>");
     c = m;
   }
-  document.getElementById("total").innerHTML = m;
+  document.getElementById("listames").innerHTML = texto;
+  document.getElementById("total").innerHTML = moeda(m);
   //document.write("Montante: " + m);
 }
