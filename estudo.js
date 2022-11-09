@@ -1,4 +1,4 @@
-function moeda(atual) {
+afunction moeda(atual) {
     return atual.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' });
 }
 
