@@ -1,6 +1,7 @@
 # Terceiro Trimestre
 
 ## Identificação
-Victor Hugo Garozo - N°30
+Jesus Maringá - Nr. 50
 
-## Conteudo - HTML - CSS - JavaScript
+## Conteúdo
+HTML, CSS e javascript

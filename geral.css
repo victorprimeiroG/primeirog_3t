@@ -1,48 +1,45 @@
-.calc {
-    background: skyblue;
-    color: blue;
+#calculadora {
+    background: rgb(169, 172, 171);
     width: 200px;
     padding: 10px;
-    border-radius: 10px;
     text-align: center;
-    box-shadow: 5px 6px red;
+    border-radius: 10px;
 }
-.cal input {
-    background: black;
-    color: aliceblue;
-    border-radius: 5px;
+#calculadora input {
+    background: rgb(88, 82, 82);
+    color: white;
     padding: 5px;
-}
-.calc input:focus {
-    background: black;
-    color: sandybrown;
+    border-radius: 5px;
 }
 #sptotal {
     background: black;
-    color: rgb(95, 173, 65);
+    color: chartreuse;
+    padding: 10px;
     border-radius: 10px;
-    padding: 15px;
     margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.calc button {
-    background: antiquewhite;
-    color: red;
-    border-radius: 10px;
+#calculadora button {
+    background: chocolate;
+    color: rgb(255, 255, 255);
     padding: 5px;
+    border-radius: 5px;
     margin-top: 10px;
 }
-.calc button:hover {
-    background: antiquewhite;
-    color: red;
+#calculadora button:hover{
+    background: rgb(236, 222, 212);
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
-#splista {
-    text-align: start;
-    border-style: dotted;
-    border-color: blue;
-    border-width: 1px;
-    border-radius: 4px;
-    background: brown;
-    color: darkblue;
-    margin-top: 10px;
+h3 {
+    color: rgb(128, 27, 27);
 }
+.calcF {
+    display: none;
+}
+#input-calcF {
+    display: none;
+}
+#input-calcF:checked + #calculadora .calcF {
+    display: block;
+} 
