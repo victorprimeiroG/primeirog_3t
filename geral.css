@@ -1,55 +1,57 @@
-#calculadora {
-    background: rgb(169, 172, 171);
-    width: 200px;
-    padding: 10px;
-    text-align: center;
-    border-radius: 10px;
+.calc {
+  background: rgb(66, 66, 66);
+  color: rgb(255, 255, 255);
+  width: 200px;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 5px 6px rgb(4, 195, 253)
 }
-#calculadora input {
-    background: rgb(88, 82, 82);
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
+input {
+background: rgb(114, 114, 114);
+color: rgb(0, 0, 0);
+border-radius: 5px;
+padding: 5px;
 }
-#sptotal {
-    background: black;
-    color: chartreuse;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.calc input:focus{
+  background: black;
+  color: yellow;
 }
-#calculadora button {
-    background: chocolate;
-    color: rgb(255, 255, 255);
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 10px;
+#spTotal {
+background: rgb(0, 0, 0);
+color: aliceblue;
+border-radius: 10px;
+padding: 10px;
+margin-bottom: 12px;
 }
-#calculadora button:hover{
-    background: rgb(236, 222, 212);
-    color: rgb(0, 0, 0);
-    cursor: pointer;
+.calc button {
+  background: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
 }
-h3 {
-    color: rgb(128, 27, 27);
+.calc button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  
+}
+#spLista {
+  text-align: start;
+  border-style: dashed;
+  border-color: yellow;
+  border-width: 1px;
+  border-radius: 4px;
+  background: rgb(245, 11, 11);
+  color: blueviolet;
 }
 .calcF {
-    display: none;
-}
-#input-calcF {
-    display: none;
-}
-#input-calcF:checked + #calculadora .calcF {
-    display: block;
-} 
-.calcF {
-    display: none;
+  display: none;
 }
 #input-calcFin {
-    display: none;
-
+  display: none;
 }
-#input-calcFin:checked + .calc .calcF {
-    display: block;
+#input-calcFin:checked + .calc .calcF{
+  display: block;
 }

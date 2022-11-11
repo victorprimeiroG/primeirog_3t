@@ -1,7 +1,6 @@
 # Terceiro Trimestre
 
 ## Identificação
-Jesus Maringá - Nr. 50
+Matheus Henrique Bruder Pires N°:24 1°:G
 
-## Conteúdo
-HTML, CSS e javascript
+## Conteúdo - HTML - CSS - JavaScript
